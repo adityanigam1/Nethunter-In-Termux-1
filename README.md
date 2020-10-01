@@ -5,6 +5,14 @@ This is a script by which you can install Kali nethunter (Kali Linux) in your te
 2. Give execution permission `chmod +x kalinethunter`
 3. Run script `./kalinethunter`
 4. Now just start kali nethunter `startkali`
+### If it does not work
+1. `pkg install fish`
+2. type  command - `fish`
+1. inside fish type `curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter`
+2. Give execution permission `chmod +x kalinethunter`
+3. Run script `./kalinethunter`
+4. Now just start kali nethunter `startkali`
+
 
 ### Compulsory Steps For First Time Use (Only for Fisrt Time After Installation)
 1. So after `startkali`, execute this command `wget https://http.kali.org/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2018.1_all.deb`
