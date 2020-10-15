@@ -1,7 +1,10 @@
 # Nethunter-In-Termux
 This is a script by which you can install Kali nethunter (Kali Linux) in your termux application without rooted phone 
 ### Steps For Installation
-1. Download script in **HOME** `curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter`
+1. Download Termux from Play store or Appstore
+2. Open it and type `apt update && apt install upgrade `
+3. type `pkg install curl`
+1. then download net-hunter type   `curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter`
 2. Give execution permission `chmod +x kalinethunter`
 3. Run script `./kalinethunter`
 4. Now just start kali nethunter `startkali`
